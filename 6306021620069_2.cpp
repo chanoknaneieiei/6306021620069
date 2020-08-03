@@ -22,6 +22,6 @@ int main()
 	cout<<"Final :"<<final<<endl;
 	total = final+mid+quizz;
 	cout<<"Total :"<<total<<endl;
-	cout<<"You score is"<<((total>=60)?"PASS":"FALL")<<endl;
+	cout<<"You score is"<<((total>=60)?"PASS":"FAIL")<<endl;
 	return 0;
 }
