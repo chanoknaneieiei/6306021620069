@@ -26,13 +26,13 @@ int main()
 		else if (choice == '2'){
 		float lenght,widht;
 		cout<<"Enter Lenght and Width: ";
-		cin>>lenght,widht;
+		cin>>lenght>>widht;
 		cout<<"area of circle ="<<fixed;
 		cout<<setprecision(2)<<Area(lenght,widht)<<endl;}
 		else if (choice == '3'){
 		double base,high;
 		cout<<"Enter Lenght and Width: ";
-		cin>>base,high;
+		cin>>base>>high;
 		cout<<"area of circle ="<<fixed;
 		cout<<setprecision(2)<<Area(base,high)<<endl;}
 		else if (choice =='4')flag = false;
